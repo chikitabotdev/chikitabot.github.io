@@ -32,6 +32,9 @@ text-decoration: none;
 .cikitaimg1 {
     flex: 0 0 50%;
     box-sizing: border-box;
+    min-height: 1px;
+    max-width: 100%;
+    height: auto;
 }
 .cikitatext1 {
     flex: 0 0 50%;
