@@ -29,11 +29,11 @@ text-decoration: none;
     margin-left: auto;
 }
 
-.terraimg {
+.cikitaimg1 {
     flex: 0 0 50%;
     box-sizing: border-box;
 }
-.terratext {
+.cikitatext1 {
     flex: 0 0 50%;
     box-sizing: border-box;
 }
@@ -46,11 +46,11 @@ text-decoration: none;
     .row {
         justify-content: center;
     }
-    .terraimg {
+    .cikitaimg1 {
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    .terratext {
+    .cikitatext1 {
         flex: 0 0 100%;
         box-sizing: content-box;
     }
