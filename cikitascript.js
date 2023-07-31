@@ -7,5 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const background = "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255, 182, 212, 0.8) 100%)";
             body.style.background = background;
         }
+        if (window.scrollY < scrollhalfpage) {
+            const background = "radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(182 230 255 / 80%) 100%)";
+            body.style.background = background;
+        }
     });
 });
