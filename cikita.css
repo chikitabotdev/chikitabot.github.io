@@ -3,9 +3,7 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(182 230 255 / 80
 transition: background 1s ease;
 background-color: #80d2d0;
 }
-body.smooth-bg {
-    background-color: #ff0000;
-}
+
 header {
     background-color: #fafbfc2e;
     transition: 1s;
