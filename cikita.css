@@ -1,11 +1,9 @@
 header {
-    background-color: #fafbfc;
+    background-color: #fafbfc2e;
     transition: 1s;
     position: sticky;
     top: 0;
     box-shadow: rgba(74,74,74,.1) 0 4px 15px -1px, rgba(105,105,105,.06) 0 2px 10px -1px;
-    border: 1px solid;
-    border-color: #fafbfcc7;
     border-radius: 0.25rem;
     backdrop-filter: blur(12px);
 }
