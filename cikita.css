@@ -70,7 +70,7 @@ color: #454545;
     padding-bottom: 5%;
 }
 .button:hover {
-    color: #d9f0fc;
+    background-color: #d9f0fc;
     transition: 0.5s;
 }
 
