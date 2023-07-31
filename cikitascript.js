@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.scrollY > (maxheight * 2) ) {
             body.style.backgroundColor = "#ffe700";
         }
-        else if (window.scrollY > (maxheight * 1)) {
+        else if (window.scrollY > (maxheight)) {
             body.style.backgroundColor = "#ff0000";
         }
         else {
