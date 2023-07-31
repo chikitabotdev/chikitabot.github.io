@@ -22,9 +22,6 @@ header {
     backdrop-filter: blur(12px);
     z-index: 100;
 }
-header .container {
-    width: 85%;
-}
 header .site-title {
     font-family: 'Red Hat Display', sans-serif;
     color: color("black");
