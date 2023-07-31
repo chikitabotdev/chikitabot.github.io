@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > (window.innerHeight / 2)) {
-            body.style.backgroundColor = "#ff0000";
-        }
-        else if (window.scrollY > (window.innerHeight / 3)) {
             body.style.backgroundColor = "#ffe700";
+        }
+        else if (window.scrollY > (window.innerHeight / 4)) {
+            body.style.backgroundColor = "#ff0000";
         }
         else {
             body.style.backgroundColor = "";
