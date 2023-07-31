@@ -1,4 +1,4 @@
-const element = document.querySelector('.body');
+const body = document.body;
 
 window.addEventListener('scroll', () => {
   // Sayfa kaydırıldıkça scrollY değeri artar, bu değeri arka plan rengiyle ilişkilendiriyoruz
@@ -6,5 +6,5 @@ window.addEventListener('scroll', () => {
   
   if (window.scrollY > scrollhalfpage) {
     const background = "background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255, 182, 212, 0.8) 100%);"
-    element.style.background = background;}
+    body.style.background = background;}
 });
