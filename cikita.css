@@ -69,6 +69,11 @@ color: #d9f0fc;
     align-items: center;
     padding-bottom: 5%;
 }
+.button:hover {
+    color: #d9f0fc;
+    transition: 0.5s;
+}
+
 .discord-icon:hover {
     color: #abd3e7;
     transition: 0.5s;
