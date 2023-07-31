@@ -38,9 +38,6 @@ header a:visited {
 header a:link {
 text-decoration: none;
 }
-header a:hover {
-color: #d9f0fc;
-}
 
 .container {
     display: flex;
