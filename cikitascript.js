@@ -10,6 +10,6 @@ window.addEventListener('scroll', () => {
   const saturation = 100; // %100 doygunluk, yani canlı bir renk
   const lightness = 50; // %50 parlaklık, orta tonlarda bir renk
 
-  const backgroundColor = "background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255, 182, 212, 0.8) 100%);"
+  const backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
   element.style.backgroundColor = backgroundColor;
 });
