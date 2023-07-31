@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const body = document.body;
-    const maxheight = (body.scrollHeight - window.innerHeight) / 3;
-
     window.addEventListener('scroll', () => {
+        const body = document.body;
+        const maxheight = (body.scrollHeight - window.innerHeight) / 3;
         if (window.scrollY > (maxheight * 2) ) {
             body.style.backgroundColor = "#ffe700";
         }

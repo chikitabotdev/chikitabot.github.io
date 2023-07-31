@@ -4,6 +4,8 @@ transition: background 1s ease;
 background-color: #80d2d0;
 }
 
+body
+
 header {
     background-color: #fafbfc2e;
     transition: 1s;
