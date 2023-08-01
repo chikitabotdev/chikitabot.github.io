@@ -19,9 +19,3 @@ function changeColorBG(id, color) {
 function changeColor(id, color) {
     document.getElementById(id).style.color = color;
 }   
-function removeColorBG(id) {
-    document.getElementById(id).style.backgroundColor = "";
-}
-function removeColor(id) {
-    document.getElementById(id).style.color = "";
-}   
