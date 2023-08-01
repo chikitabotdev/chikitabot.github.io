@@ -74,13 +74,14 @@ color: #5c5c5c;
   
   @keyframes grow-shrink {
     0% {
-      transform: scale(1);
+        transform: translateY(0);
     }
+    
     50% {
-      transform: scale(1.5);
+        transform: translateY(-10px);
     }
     100% {
-      transform: scale(1);
+        transform: translateY(0);
     }
   }
 
