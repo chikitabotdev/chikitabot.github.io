@@ -69,15 +69,7 @@ color: #454545;
     align-items: center;
     padding-bottom: 5%;
 }
-.button:hover {
-    background-color: #d9f0fc88;
-    transition: 0.5s;
-}
 
-.discord-icon:hover {
-    color: #abd3e7;
-    transition: 0.5s;
-}
 
 @media screen and (max-width: 1275px) {
     header .container {

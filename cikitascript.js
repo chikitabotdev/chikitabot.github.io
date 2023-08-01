@@ -13,3 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+function changeColorbutton() {
+    document.getElementById('change-on-hover-button').style.backgroundColor = '#595b5d2e';
+  }
+  function changeColoricon() {
+    document.getElementById('change-on-hover-icon').style.color = '#454545';
+  }
