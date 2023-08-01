@@ -13,9 +13,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-function changeColorbutton() {
-    document.getElementById('change-on-hover-button').style.backgroundColor = '#595b5d2e';
-  }
-  function changeColoricon() {
-    document.getElementById('change-on-hover-icon').style.color = '#454545';
-  }
+function changeColorBG(id, color) {
+    document.getElementById(id).style.backgroundColor = color;
+}
+function changeColor(id, color) {
+    document.getElementById(id).style.color = color;
+}   
+function removeColorBG(id) {
+    document.getElementById(id).style.backgroundColor = "";
+}
+function removeColor(id) {
+    document.getElementById(id).style.color = "";
+}   
