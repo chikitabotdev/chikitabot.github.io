@@ -58,6 +58,7 @@ color: #5c5c5c;
     align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    animation: grow-shrink 3s cubic-bezier(0, -0.64, 1, 1.71) infinite;
 }
 .cikitatext1 {
     flex: 0 0 50%;
@@ -68,22 +69,19 @@ color: #5c5c5c;
     padding-bottom: 5%;
 }
 
-.cikiimg1animation {
-    animation: grow-shrink 2s linear infinite;
-  }
   
-  @keyframes grow-shrink {
-    0% {
-        transform: translateY(0);
-    }
-    
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-  }
+@keyframes grow-shrink {
+0% {
+    transform: translateY(0);
+}
+
+50% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0);
+}
+}
 
 
 
