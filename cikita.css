@@ -68,6 +68,22 @@ color: #5c5c5c;
     padding-bottom: 5%;
 }
 
+.cikiimg1animation {
+    animation: grow-shrink 2s linear infinite;
+  }
+  
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 
 
 @media screen and (max-width: 1200px) {
