@@ -70,7 +70,7 @@ color: #5c5c5c;
 
 
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1200px) {
     header .container {
         justify-content: center;
     }
