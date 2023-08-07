@@ -4,6 +4,7 @@
     --glare: hsl(0 0% 100% / 0.75);
     --font-size: var(--font-size-fluid-3);
     --transition: 0.2s;
+    --background-color: #fff;
   }
   
   * {
@@ -157,7 +158,7 @@
 
   @media (prefers-color-scheme: dark) {
     :where(textarea,select,input:not([type=button],[type=submit],[type=reset])) {
-        background-color:#ffffff
+        background-color:var(--background-color)
     }
 
     :where(dialog) {
