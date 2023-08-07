@@ -30,7 +30,6 @@ header a{
     transition: 0.5s;
 }
 header a:visited {
-        color: inherit;
         text-decoration: none;
       }
 header a:link {
