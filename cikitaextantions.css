@@ -106,10 +106,6 @@
   a.addserver:hover svg {
       animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
   }
-
-  .cikitaimg1 {
-    animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
-  }
   
   @keyframes sparkle {
       50% {
