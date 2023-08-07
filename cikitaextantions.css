@@ -27,7 +27,7 @@
   
   a.addserver span {
     display: inline-block;
-    font-size: calc(var(--font-size) * 1.5);
+    font-size: 250%;
     font-weight: var(--font-weight-9);
     transition: all 0.2s;
     text-decoration: none;
