@@ -154,4 +154,18 @@
       --s: 0.8;
       --d: 4;
   }
+
+  @media (prefers-color-scheme: dark) {
+    :where(textarea,select,input:not([type=button],[type=submit],[type=reset])) {
+        background-color:#ffffff
+    }
+
+    :where(dialog) {
+        background-color: var(--surface-2)
+    }
+
+    ::placeholder {
+        color: var(--gray-6)
+    }
+}
   
