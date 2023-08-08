@@ -107,7 +107,7 @@
     animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
     }
   a.addserver svg {
-      animation: sparkle 1.5s calc((var(--delay-step) * var(--d)) * 1s) infinite;
+      animation: sparkle 1s calc((var(--delay-step) * var(--d)) * 1s) infinite;
   }
 
   @keyframes sparkle {
