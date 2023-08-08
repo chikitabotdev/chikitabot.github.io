@@ -95,7 +95,7 @@ color: #5c5c5c;
     box-shadow: #422800 2px 2px 0 0;
     transform: translate(2px, 2px);
   }
-  .addserver span {
+  a.addserver span {
     font-size: 250%;
     }
   
@@ -138,7 +138,7 @@ color: #5c5c5c;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    .addserver span {
+    a.addserver span {
         font-size: 200%;
     }
 }
