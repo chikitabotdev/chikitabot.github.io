@@ -109,7 +109,7 @@
   }
   @media screen and (max-width: 1200px) {
     a.addserver svg {
-        animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
+        animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
         }
     }
   @keyframes sparkle {
