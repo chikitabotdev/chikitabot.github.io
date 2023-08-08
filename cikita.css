@@ -72,13 +72,7 @@ color: #5c5c5c;
   a.addserver span {
     font-size: 250% !important;
     }
-  
-  @media (min-width: 768px) {
-    .button-74 {
-      min-width: 120px;
-      padding: 0 25px;
-    }
-  }
+
 
   
 @keyframes grow-shrink {
@@ -96,7 +90,7 @@ color: #5c5c5c;
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     header .container {
         justify-content: center;
     }
