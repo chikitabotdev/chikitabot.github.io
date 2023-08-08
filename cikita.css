@@ -96,7 +96,7 @@ color: #5c5c5c;
     transform: translate(2px, 2px);
   }
   a.addserver span {
-    font-size: 250% important!;
+    font-size: 250% !important;
     }
   
   @media (min-width: 768px) {
@@ -139,7 +139,7 @@ color: #5c5c5c;
         box-sizing: content-box;
     }
     a.addserver span {
-        font-size: 200% important!;
+        font-size: 200% !important;
         }
     }
 
