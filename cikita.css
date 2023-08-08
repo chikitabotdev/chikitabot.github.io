@@ -25,6 +25,7 @@ header .site-title {
     font-family: 'Red Hat Display', sans-serif;
     color: #76a3ba;
     font-size: 150%;
+    letter-spacing: 2px;
 }
 header a{
     transition: 0.5s;
