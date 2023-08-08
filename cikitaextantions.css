@@ -104,14 +104,13 @@
   
   /* Animation for sparkles */
   
-  a.addserver:hover svg {
-      animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
+  a.addserver svg {
+      animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
   }
-  @media screen and (max-width: 1200px) {
-    a.addserver svg {
-        animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
-        }
-    }
+  .cikitaimg1 {
+    animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
+  }
+
   @keyframes sparkle {
       50% {
           transform: translate(-50%, -50%) scale(var(--s, 1));
