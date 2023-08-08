@@ -103,7 +103,9 @@
   }
   
   /* Animation for sparkles */
-  
+  a.addserver:hover svg {
+    animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
+    }
   a.addserver svg {
       animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
   }
