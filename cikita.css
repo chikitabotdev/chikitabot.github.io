@@ -23,7 +23,8 @@ header {
 }
 header .site-title {
     font-family: 'Red Hat Display', sans-serif;
-    color: #76a3ba;
+    color: #afd8ed;
+    text-shadow: -1px 1px 0px #4f839b;
     font-size: 150%;
     letter-spacing: 2px;
 }
