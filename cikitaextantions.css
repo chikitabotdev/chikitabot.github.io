@@ -107,7 +107,11 @@
   a.addserver:hover svg {
       animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
   }
-  
+  @media screen and (max-width: 1200px) {
+    a.addserver svg {
+        animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) both;
+        }
+    }
   @keyframes sparkle {
       50% {
           transform: translate(-50%, -50%) scale(var(--s, 1));
