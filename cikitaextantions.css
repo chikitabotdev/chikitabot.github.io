@@ -109,7 +109,7 @@
   a.addserver svg {
       animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
   }
-  .cikitaimg1 {
+  .cikitaimg {
     animation: sparkle 0.75s calc((var(--delay-step) * var(--d)) * 1s) infinite;
   }
 
