@@ -162,7 +162,7 @@
     }
 
     :where(dialog) {
-        background-color: var(--surface-2)
+        background-color: var(--gray-2)
     }
 
     ::placeholder {
