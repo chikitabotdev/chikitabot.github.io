@@ -19,3 +19,6 @@ function changeColorBG(id, color) {
 function changeColor(id, color) {
     document.getElementById(id).style.color = color;
 }   
+function refreshPage() {
+    window.location.reload();
+}
