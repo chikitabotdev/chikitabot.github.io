@@ -156,6 +156,8 @@ font-size: 200% !important;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
+    section p.addserver{
+        justify-content: normal;
 
 }
 
