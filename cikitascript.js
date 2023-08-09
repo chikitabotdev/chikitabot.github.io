@@ -1,13 +1,21 @@
 let req = new XMLHttpRequest();
 
-
+function formatNumber(number) {
+    if (number >= 1000000) {
+      return (number / 1000000).toFixed(2) + 'M'; // Milyon
+    } else if (number >= 1000) {
+      return (number / 1000).toFixed(1) + 'K'; // Bin
+    } else {
+      return number.toString(); // Bin ve milyon altındaki sayılar
+    }
+  }
 
 document.addEventListener('DOMContentLoaded', function() {
     req.onreadystatechange = () => {
         if (req.readyState == XMLHttpRequest.DONE) {
             const responseJSON = JSON.parse(req.responseText);
             var uyesayisi = responseJSON.record.member_count;
-            document.getElementsByClassName("member-count")[0].innerHTML = uyesayisi;
+            document.getElementsByClassName("member-count")[0].innerHTML = formatNumber(uyesayisi);
         }
       };
     
