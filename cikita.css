@@ -40,6 +40,23 @@ header a:hover {
 color: #5c5c5c;
 }
 
+.row {
+    display: flex;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    backdrop-filter: blur(11px);
+    border-radius: 40px;
+    background-color: #fafbfc2e;
+    box-shadow: rgb(1 1 1 / 10%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px;
+    z-index: 100;
+
+}
+
+
+
+
 .container {
     display: flex;
     justify-content: normal;
@@ -68,10 +85,36 @@ color: #5c5c5c;
     align-items: center;
     padding-bottom: 5%;
 }
+.cikitatext1 h1 {
+    font-size: 200%;
+    padding: 2.5% 2.5%;
+    margin-top: 15%;
+    color: #484848;
+    max-inline-size: none;
+}
+.cikitatext1 p{
+    font-size: 150%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #484848;
+}
+section .button p {
+    margin-top: 10%;
+    display: grid;
+    place-items: center;
+    font-family: 'Google Sans', sans-serif, system-ui;
+    background: #ffffff00;
+    text-align: center;vertical-align: middle;
+    border: 1px white;
+    max-inline-size: none;
+}
+section .addserver a{
+    margin-right: 5%; margin-left: 5%;
+}
 
-  a.addserver span {
-    font-size: 250% !important;
-    }
+section .addserver span {
+font-size: 250% !important;
+}
 
 
   
@@ -106,7 +149,7 @@ color: #5c5c5c;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    a.addserver span {
+    section .addserver span {
         font-size: 200% !important;
         }
     }
