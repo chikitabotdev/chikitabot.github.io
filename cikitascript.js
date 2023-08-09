@@ -14,7 +14,7 @@ window.onload = function() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementsByClassName("server-count")[0].innerHTML = uyesayisi;
+    document.getElementsByClassName("member-count")[0].innerHTML = uyesayisi;
 
   });
 
