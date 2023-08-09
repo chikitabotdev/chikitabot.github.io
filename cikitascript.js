@@ -1,12 +1,23 @@
 let req = new XMLHttpRequest();
 
-req.onreadystatechange = () => {
-  if (req.readyState == XMLHttpRequest.DONE) {
-      const responseJSON = JSON.parse(req.responseText);
-      var uyesayisi = responseJSON.record.member_count;
-      console.log(uyesayisi);
-  }
+var uyesayisi = 0;
+
+
+window.onload = function() {
+    req.onreadystatechange = () => {
+        if (req.readyState == XMLHttpRequest.DONE) {
+            const responseJSON = JSON.parse(req.responseText);
+            var uyesayisi = responseJSON.record.member_count;
+            console.log(uyesayisi);
+        }
+      };
 };
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementsByClassName("server-count")[0].innerHTML = uyesayisi;
+
+  });
+
 
 req.open("GET", "https://api.jsonbin.io/v3/b/64d3bd9f9d312622a38e92ca", true);
 req.setRequestHeader("X-Access-Key", "$2b$10$2XJVg1rOhV4iNPGb./lCqeU7Du.mF3zaMK68rA7IqBkGjly/nVS8.");
@@ -33,6 +44,9 @@ function changeColor(id, color) {
 function refreshPage() {
     window.location.reload();
 }
+
+
+
 
 
 
