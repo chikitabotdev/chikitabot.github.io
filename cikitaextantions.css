@@ -1,7 +1,7 @@
 :root {
     --color: #caedff;
     --shadow: #4f839b;
-    --glare: #4f839b;
+    --glare: hwb(0 100% 0% / 0.75);
     --font-size: var(--font-size-fluid-3);
     --transition: 0.2s;
     --background-color: #fff;
@@ -99,7 +99,7 @@
   }
   
   a.addserver svg path {
-      fill: var(--glare);
+      fill: #4f839b;
   }
   
   /* Animation for sparkles */
