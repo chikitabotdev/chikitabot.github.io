@@ -102,7 +102,7 @@ section p.addserver{
     margin-top: 10%;
     display: grid;
     place-items: center;
-    justify-content: center;
+    justify-content: normal;
     font-family: 'Google Sans', sans-serif, system-ui;
     background: #ffffff00;
     text-align: center;vertical-align: middle;
@@ -157,7 +157,7 @@ font-size: 200% !important;
         box-sizing: content-box;
     }
     section p.addserver{
-        justify-content: normal;
+        justify-content: center;
 
 }
 
