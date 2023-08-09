@@ -108,11 +108,11 @@ section p.addserver{
     border: 1px white;
     max-inline-size: none;
 }
-section .addserver a{
+section a.addserver {
     margin-right: 5%; margin-left: 5%;
 }
 
-section .addserver span {
+section span.addserver {
 font-size: 250% !important;
 }
 
@@ -149,7 +149,7 @@ font-size: 250% !important;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    section .addserver span {
+    section span.addserver {
         font-size: 200% !important;
         }
     }
