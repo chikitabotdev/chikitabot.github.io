@@ -98,7 +98,7 @@ color: #5c5c5c;
     margin-left: 10%;
     color: #484848;
 }
-section .addserver p {
+section p.addserver{
     margin-top: 10%;
     display: grid;
     place-items: center;
@@ -108,11 +108,11 @@ section .addserver p {
     border: 1px white;
     max-inline-size: none;
 }
-a.addserver a{
+section .addserver a{
     margin-right: 5%; margin-left: 5%;
 }
 
-a.addserver span {
+section .addserver span {
 font-size: 250% !important;
 }
 
@@ -149,7 +149,7 @@ font-size: 250% !important;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    a.addserver span {
+    section .addserver span {
         font-size: 200% !important;
         }
     }
