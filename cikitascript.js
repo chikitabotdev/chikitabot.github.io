@@ -1,15 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', () => {
         const body = document.body;
-        const maxheight = (body.scrollHeight - window.innerHeight) / 3;
-        if (window.scrollY > (maxheight * 2) ) {
-            body.style.backgroundColor = "#ffe700";
-        }
-        else if (window.scrollY > (maxheight)) {
-            body.style.backgroundColor = "#ff0000";
+        const maxheight = (body.scrollHeight - window.innerHeight) / 4;
+        if (window.scrollY > (maxheight) ) {
+            document.header.style.boxShadow = "rgb(1 1 1 / 9%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px";
         }
         else {
-            body.style.backgroundColor = "";
+            document.header.style.boxShadow = "";
         }
     });
 });

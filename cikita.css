@@ -7,11 +7,11 @@ background-color: #80d2d0;
 body
 
 header {
-    background-color: #fafbfc2e;
+    background-color: #ffffff14;
     transition: 1s;
     position: sticky;
     top: 0;
-    box-shadow: rgba(74,74,74,.1) 0 4px 15px -1px, rgba(105,105,105,.06) 0 2px 10px -1px;
+    box-shadow: rgb(1 1 1 / 10%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px;
     margin-left: 3%;
     margin-right: 3%;
     padding-top: 0.5%;
@@ -23,8 +23,7 @@ header {
 }
 header .site-title {
     font-family: 'Red Hat Display', sans-serif;
-    color: #afd8ed;
-    text-shadow: -1px 1px 0px #4f839b;
+    color: #484848;
     font-size: 150%;
     letter-spacing: 2px;
 }
