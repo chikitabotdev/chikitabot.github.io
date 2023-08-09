@@ -112,7 +112,7 @@ section a.addserver {
     margin-right: 5%; margin-left: 5%;
 }
 
-section span.addserver {
+section .addserver span{
 font-size: 250% !important;
 }
 
@@ -149,7 +149,7 @@ font-size: 250% !important;
         flex: 0 0 100%;
         box-sizing: content-box;
     }
-    section span.addserver {
+    section .addserver span{
         font-size: 200% !important;
         }
     }
