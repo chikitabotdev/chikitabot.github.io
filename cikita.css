@@ -25,6 +25,7 @@ header .site-title {
     color: #484848;
     font-size: 150%;
     letter-spacing: 2px;
+    font-weight: bolder;
 }
 header a{
     transition: 0.5s;
