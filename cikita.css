@@ -143,6 +143,9 @@ font-size: 200% !important;
     .row {
         justify-content: center;
     }
+    .cikitaimg {
+        width: 60%;
+    }
     .cikitaimg1 {
         flex: 0 0 100%;
         box-sizing: content-box;
