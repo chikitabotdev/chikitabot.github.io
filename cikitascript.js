@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (req.readyState == XMLHttpRequest.DONE) {
             const responseJSON = JSON.parse(req.responseText);
             var uyesayisi = responseJSON.record.member_count;
-            document.getElementsByClassName("member-count")[0].innerHTML = formatNumber(uyesayisi);
+            document.getElementsByClassName("member-number")[0].innerHTML = formatNumber(uyesayisi);
         }
       };
     
