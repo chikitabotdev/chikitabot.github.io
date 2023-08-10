@@ -128,7 +128,7 @@ font-size: 200% !important;
     margin-bottom: 0;
     -webkit-margin-start: 0.5rem;
     margin-inline-start: 1.5rem;
-    font-size: 150% !important;
+    font-size: 125% !important;
 }
 
 .member-count {
@@ -139,7 +139,7 @@ font-size: 200% !important;
     -webkit-margin-start: 0.5rem;
     margin-inline-start: 1.5rem;
     transition: 1s;
-    font-size: 150% !important;
+    font-size: 125% !important;
 }
 
 
