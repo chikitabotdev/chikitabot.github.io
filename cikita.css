@@ -79,7 +79,7 @@ color: #5c5c5c;
 }
 
 .cikitaimg1:hover {
-    animation: grow-shrink 3s cubic-bezier(0, -0.64, 1, 1.71), zoomAnimation 1s infinite alternate;
+    animation: grow-shrink 3s cubic-bezier(0, -0.64, 1, 1.71), zoomAnimation 0.5s infinite alternate;
 }
 
 .cikitatext1 {
