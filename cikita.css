@@ -149,7 +149,7 @@ font-size: 170% !important;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
     font-size: 150% !important;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-bottom: 1%;
 }
 
@@ -163,8 +163,15 @@ font-size: 170% !important;
     justify-content: center;
 }
 
+@keyframes zoomAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2); 
+    }
+}
 
-  
 @keyframes grow-shrink {
 0% {
     transform: translateY(0);
