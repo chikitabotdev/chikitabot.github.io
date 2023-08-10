@@ -163,6 +163,11 @@ font-size: 170% !important;
     justify-content: center;
 }
 
+.cikitaimg1 sparkle {
+    animation: zoomAnimation 1s infinite alternate;
+}
+
+
 @keyframes zoomAnimation {
     0% {
       transform: scale(1);
