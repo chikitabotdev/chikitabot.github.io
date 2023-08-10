@@ -142,7 +142,6 @@ font-size: 170% !important;
     font-size: 125% !important;
 }
 .rowdown {
-    justify-content: center;
     color: #484848;
     display: flex;
     text-align: center;
@@ -151,8 +150,15 @@ font-size: 170% !important;
     font-weight: bold;
     font-size: 150% !important;
     margin-top: 1%;
-    justify-content: center;
     margin-bottom: 1%;
+}
+
+.server-count-cont {
+    flex: 0 0 50%;
+}
+
+.member-count-cont {
+    flex: 0 0 50%;
 }
 
 
