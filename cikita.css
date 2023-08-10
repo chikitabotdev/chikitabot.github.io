@@ -77,6 +77,11 @@ color: #5c5c5c;
     padding-bottom: 5%;
     animation: grow-shrink 3s cubic-bezier(0, -0.64, 1, 1.71) infinite;
 }
+
+.cikitaimg1:hover {
+    animation: grow-shrink 3s cubic-bezier(0, -0.64, 1, 1.71) infinite, zoomAnimation 1s infinite alternate;
+}
+
 .cikitatext1 {
     flex: 0 0 60%;
     box-sizing: border-box;
@@ -149,7 +154,7 @@ font-size: 170% !important;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
     font-size: 150% !important;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 1%;
 }
 
@@ -163,7 +168,7 @@ font-size: 170% !important;
     justify-content: center;
 }
 
-.cikitaimg1 sparkle {
+.cikitaimg1 .sparkle{
     animation: zoomAnimation 1s infinite alternate;
 }
 
