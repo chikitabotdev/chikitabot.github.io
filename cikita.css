@@ -168,10 +168,10 @@ font-size: 170% !important;
     justify-content: center;
 }
 
-.sparkle .blue{
+.sparkle.blue{
     animation: zoomAnimation 0.5s infinite alternate;
 }
-.sparkle .pink {
+.sparkle.pink {
     animation: zoomAnimation 1s infinite alternate;
 }
 
