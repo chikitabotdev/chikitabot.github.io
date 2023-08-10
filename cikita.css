@@ -169,7 +169,7 @@ font-size: 170% !important;
 }
 
 .sparkle.blue{
-    animation: zoomAnimation 0.5s infinite alternate;
+    animation: zoomAnimation 2s infinite alternate;
 }
 .sparkle.pink {
     animation: zoomAnimation 1s infinite alternate;
