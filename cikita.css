@@ -121,6 +121,28 @@ font-size: 200% !important;
 }
 
 
+.server-count {
+    margin-top: 0;
+    -webkit-margin-end: 0;
+    margin-inline-end: 0;
+    margin-bottom: 0;
+    -webkit-margin-start: 0.5rem;
+    margin-inline-start: 1.5rem;
+    font-size: 150% !important;
+}
+
+.member-count {
+    margin-top: 0;
+    -webkit-margin-end: 0;
+    margin-inline-end: 0;
+    margin-bottom: 0;
+    -webkit-margin-start: 0.5rem;
+    margin-inline-start: 1.5rem;
+    transition: 1s;
+    font-size: 150% !important;
+}
+
+
   
 @keyframes grow-shrink {
 0% {
@@ -158,8 +180,16 @@ font-size: 200% !important;
     }
     section p.addserver{
         justify-content: center;
+    }
+    .server-count {
+        font-size: 100% !important;
+    }
+    
+    .member-count {
+        font-size: 100% !important;
+    }
 
 }
-}
+
 
 
