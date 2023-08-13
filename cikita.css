@@ -273,7 +273,7 @@ font-size: 170% !important;
 }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1300px) {
     header .container {
         justify-content: center;
     }
@@ -289,7 +289,7 @@ font-size: 170% !important;
 
     }
     .cikitatext1 {
-        flex: 0 0 100% !important;
+        flex: 0 0 100%;
         box-sizing: content-box;
     }
     section p.addserver{
@@ -305,5 +305,10 @@ font-size: 170% !important;
 
 }
 
+@media screen and (max-width: 1300px) {
+    .text2 {
+        flex: 0 0 100% !important; 
+    }
+}
 
 
