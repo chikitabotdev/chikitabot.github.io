@@ -174,7 +174,7 @@ font-size: 170% !important;
     animation: zoomAnimation 1s infinite alternate;
 }
 
-.button.prim {
+.buttonprim {
     color: #fff;
     background-color: #5865f2;
     cursor: pointer;
@@ -208,7 +208,7 @@ font-size: 170% !important;
     user-select: none;
     font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.button.gray {
+.buttongray {
     color: #fff;
     background-color: #5865f2;
     cursor: pointer;
