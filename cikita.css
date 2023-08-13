@@ -273,7 +273,7 @@ font-size: 170% !important;
 }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1050px) {
     header .container {
         justify-content: center;
     }
