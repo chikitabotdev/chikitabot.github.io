@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const body = document.body;
         const maxheight = (body.scrollHeight - window.innerHeight) / 4;
         if (window.scrollY > (maxheight) ) {
-            document.getElementsByClassName("cikiheader")[0].style.boxShadow = "rgb(1 1 1 / 10%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px";
+          document.getElementsByClassName("cikiheader")[0].style.boxShadow = "rgb(1 1 1 / 10%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px";
         }
         else {
           document.getElementsByClassName("cikiheader")[0].style.boxShadow = "none";
