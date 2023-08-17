@@ -42,8 +42,8 @@ color: #5c5c5c;
 
 .row {
     display: flex;
-    margin-right: 7%;
-    margin-left: 7%;
+    margin-right: 15%;
+    margin-left: 15%;
     margin-top: 5%;
     flex-wrap: wrap;
     backdrop-filter: blur(11px);
@@ -277,6 +277,9 @@ font-size: 170% !important;
     }
     .row {
         justify-content: center;
+        margin-left: 5%;
+        margin-left: 5%;
+
     }
     .cikitaimg {
         width: 60%;
