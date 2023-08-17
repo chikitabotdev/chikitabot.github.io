@@ -272,7 +272,7 @@ font-size: 170% !important;
 }
 
 @media screen and (max-width: 1050px) {
-    header {
+    body header {
         margin-left: 3%;
         margin-right: 3%;
     }
