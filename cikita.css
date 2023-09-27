@@ -64,7 +64,7 @@ color: #5c5c5c;
 }
 
 .cikitaimg1 {
-    flex: 0 0 40%;
+    flex: 0 0 50%;
     box-sizing: border-box;
     min-height: 1px;
     max-width: 100%;
@@ -79,7 +79,7 @@ color: #5c5c5c;
 
 
 .cikitatext1 {
-    flex: 0 0 60%;
+    flex: 0 0 50%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ color: #5c5c5c;
     padding-bottom: 5%;
 }
 .cikitatext1 h1 {
-    font-size: 200%;
+    font-size: 70px;
     margin-top: 15%;
     color: #484848;
     max-inline-size: none;
