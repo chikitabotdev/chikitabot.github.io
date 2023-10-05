@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   });
 
-req.open("GET", "http://5.180.104.232:58731/api/server_count", true);
+req.open("GET", "https://5.180.104.232:58731/api/server_count", true);
 req.send();
 
 document.addEventListener('DOMContentLoaded', function() {
