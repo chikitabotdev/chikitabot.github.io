@@ -22,8 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   });
 
-req.open("GET", "https://api.jsonbin.io/v3/b/64d3bd9f9d312622a38e92ca", true);
-req.setRequestHeader("X-Access-Key", "$2b$10$2XJVg1rOhV4iNPGb./lCqeU7Du.mF3zaMK68rA7IqBkGjly/nVS8.");
+req.open("GET", "http://5.180.104.232:58731/api/server_count", true);
 req.send();
 
 document.addEventListener('DOMContentLoaded', function() {
