@@ -45,7 +45,7 @@ color: #5c5c5c;
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 5%;
-    flex-wrap: wrap;
+    flex-wrap: none;
     backdrop-filter: blur(11px);
     z-index: 100;
 }
@@ -269,6 +269,7 @@ font-size: 170% !important;
     }
     .row {
         justify-content: center;
+        flex-wrap: wrap;
         margin-left: 5%;
         margin-right: 5%;
     }
