@@ -50,8 +50,8 @@ function refreshPage() {
 }
 
 const elementmove = document.querySelector('.cikitaimg'),
-      elementmove1 = document.querySelector('.sparkle pink'),
-      elementmove2 = document.querySelector('.sparkle blue'),
+      elementmove1 = document.querySelector('.sparkle.pink'),
+      elementmove2 = document.querySelector('.sparkle.blue'),
       root = document.documentElement;
 
 root.addEventListener('mousemove', (e) => {
