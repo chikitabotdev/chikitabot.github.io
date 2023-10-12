@@ -99,11 +99,11 @@ color: #5c5c5c;
 section p.addserver{
     margin-top: 10%;
     display: grid;
-    place-items: center;
+    place-items: left;
     justify-content: normal;
     font-family: 'Google Sans', sans-serif, system-ui;
     background: #ffffff00;
-    text-align: center;vertical-align: middle;
+    text-align: left;vertical-align: middle;
     border: 1px white;
     max-inline-size: none;
 }
