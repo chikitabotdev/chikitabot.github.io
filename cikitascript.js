@@ -55,7 +55,7 @@ const elementmove = document.querySelector('.cikitaimg'),
 root.addEventListener('mousemove', (e) => {
   const x = e.clientX,
         y = e.clientY;
-  elementmove.style.transform = `translate(${x / 5}px,${y / 10}px)`;
+  elementmove.style.transform = `translate(${-x / 20}px,${-y / 40}px)`;
 });
 
 
