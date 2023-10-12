@@ -259,7 +259,7 @@ font-size: 170% !important;
 }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1300px) {
     body header {
         margin-left: 3%;
         margin-right: 3%;
