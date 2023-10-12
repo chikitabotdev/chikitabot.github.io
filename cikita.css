@@ -163,7 +163,9 @@ font-size: 170% !important;
     justify-content: center;
 }
 
-
+.sec1 {
+    clip-path: none;
+}
 
 .buttonprim {
     color: #fff;
@@ -305,6 +307,9 @@ font-size: 170% !important;
 @media screen and (max-width: 1300px) {
     .text2 {
         flex: 0 0 100% !important; 
+    }
+    .sec1   {
+        clip-path: polygon(20% 0%, 100% 0, 100% 50%, 80% 100%, 0 100%, 0% 50%);
     }
 }
 
