@@ -61,7 +61,7 @@ color: #5c5c5c;
     flex: 0 0 50%;
     box-sizing: border-box;
     min-height: 1px;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: flex;
     justify-content: center;
