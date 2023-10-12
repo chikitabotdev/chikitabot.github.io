@@ -50,12 +50,16 @@ function refreshPage() {
 }
 
 const elementmove = document.querySelector('.cikitaimg'),
+      elementmove1 = document.querySelector('.sparkle pink'),
+      elementmove2 = document.querySelector('.sparkle blue'),
       root = document.documentElement;
 
 root.addEventListener('mousemove', (e) => {
   const x = e.clientX,
         y = e.clientY;
-  elementmove.style.transform = `translate(${-x / 40}px,${-y / 80}px)`;
+  elementmove.style.transform = `translate(${-x / 50}px,${-y / 100}px)`;
+  elementmove1.style.transform = `translate(${-x / 40}px,${-y / 80}px)`;
+  elementmove2.style.transform = `translate(${-x / 30}px,${-y / 60}px)`;
 });
 
 
