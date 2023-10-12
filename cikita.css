@@ -99,7 +99,7 @@ color: #5c5c5c;
 section p.addserver{
     margin-top: 10%;
     display: grid;
-    place-items: flex-start;
+    place-items: center;
     justify-content: normal;
     font-family: 'Google Sans', sans-serif, system-ui;
     background: #ffffff00;
