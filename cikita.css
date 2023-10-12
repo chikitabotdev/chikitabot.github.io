@@ -91,7 +91,7 @@ color: #5c5c5c;
     color: #484848;
 }
 section p.addserver{
-    margin-top: 5%;
+    margin-top: 10%;
     display: grid;
     place-items: center;
     justify-content: left;
