@@ -11,8 +11,8 @@ header {
     position: sticky;
     top: 0;
     box-shadow: none;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 14.25rem;
@@ -301,7 +301,6 @@ font-size: 170% !important;
         clip-path: none;
         webkit-clip-path: none;
     }
-
 
 }
 @media screen and (max-width: 2000px) {
