@@ -295,16 +295,12 @@ font-size: 170% !important;
         font-size: 100% !important;
     }
 
-}
-
-@media screen and (max-width: 1300px) {
-    .text2 {
-        flex: 0 0 100% !important; 
-    }
     .sec1   {
         clip-path: none;
         webkit-clip-path: none;
     }
+
 }
+
 
 
