@@ -48,11 +48,7 @@ color: #5c5c5c;
     flex-wrap: wrap;
     backdrop-filter: blur(11px);
     z-index: 100;
-
 }
-
-
-
 
 .container {
     display: flex;
@@ -74,7 +70,6 @@ color: #5c5c5c;
     padding-bottom: 5%;
     animation: grow-shrink 2s cubic-bezier(0, -0.64, 1, 1.71) infinite;
 }
-
 
 .cikitatext1 {
     flex: 0 0 50%;
@@ -112,13 +107,11 @@ section a.addserver {
 section a.addserver:hover {
     box-shadow: rgb(1 1 1 / 10%) 0 4px 15px -1px, rgb(0 0 0 / 6%) 0 2px 10px -1px;
     transform: scale(1.2);
-
 }
 
 section .addserver span{
 font-size: 170% !important;
 }
-
 
 .server-count {
     margin-top: 0;
@@ -164,7 +157,7 @@ font-size: 170% !important;
 .sec1 {
     clip-path: polygon(20% 0%, 100% 0, 100% 50%, 80% 100%, 0 100%, 0% 50%);
     webkit-clip-path: polygon(20% 0%, 100% 0, 100% 50%, 80% 100%, 0 100%, 0% 50%);
-    background-color: white;
+    background-color: #ebebeb;
 }
 
 .buttonprim {
