@@ -49,13 +49,13 @@ function refreshPage() {
     window.location.reload();
 }
 
-const elementmove = document.querySelector('.cikitaimg'),
+const elementmove = document.querySelector('.cikitaimg1'),
       root = document.documentElement;
 
 root.addEventListener('mousemove', (e) => {
   const x = e.clientX,
         y = e.clientY;
-  elementmove.style.transform = `translate(${-x / 20}px,${-y / 40}px)`;
+  elementmove.style.transform = `translate(${-x / 40}px,${-y / 80}px)`;
 });
 
 
