@@ -63,7 +63,7 @@ root.addEventListener('mousemove', (e) => {
 });
 
 
-const resim = document.getElementById('.sparkle.blue');
+const resim = document.querySelector('.sparkle.blue');
 let scale = 1; // Başlangıç ölçeği
 
 function zoomInAndOut() {
