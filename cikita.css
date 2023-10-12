@@ -163,12 +163,7 @@ font-size: 170% !important;
     justify-content: center;
 }
 
-.sparkle.blue{
-    animation: zoomAnimation 2s infinite alternate;
-}
-.sparkle.pink {
-    animation: zoomAnimation 1s infinite alternate;
-}
+
 
 .buttonprim {
     color: #fff;
