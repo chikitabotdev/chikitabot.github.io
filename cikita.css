@@ -303,6 +303,11 @@ font-size: 170% !important;
     }
 
 }
-
+@media screen and (max-width: 2000px) {
+    .row {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
 
 
