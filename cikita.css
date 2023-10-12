@@ -262,8 +262,8 @@ font-size: 170% !important;
 
 @media screen and (max-width: 1300px) {
     body header {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
     }
     header .container {
         justify-content: center;
@@ -271,8 +271,8 @@ font-size: 170% !important;
     .row {
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
     }
     .cikitaimg {
         width: 60%;
