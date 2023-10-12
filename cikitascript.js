@@ -59,7 +59,7 @@ root.addEventListener('mousemove', (e) => {
         y = e.clientY;
   elementmove.style.transform = `translate(${-x / 50}px,${-y / 100}px)`;
   elementmove1.style.transform = `translate(${-x / 40}px,${-y / 80}px)`;
-  elementmove2.style.transform = `translate(${-x / 30}px,${-y / 60}px)`;
+  elementmove2.style.transform = `translate(${-x / 20}px,${-y / 40}px)`;
 });
 
 
