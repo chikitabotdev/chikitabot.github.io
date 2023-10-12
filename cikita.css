@@ -11,8 +11,8 @@ header {
     position: sticky;
     top: 0;
     box-shadow: none;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 14.25rem;
@@ -302,11 +302,16 @@ font-size: 170% !important;
         webkit-clip-path: none;
     }
 
+
 }
 @media screen and (max-width: 2000px) {
     .row {
         margin-left: 15%;
         margin-right: 15%;
+    }
+    .header {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
