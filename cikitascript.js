@@ -63,5 +63,32 @@ root.addEventListener('mousemove', (e) => {
 });
 
 
+const resim = document.getElementById('.sparkle.blue');
+let scale = 1; // Başlangıç ölçeği
+
+function zoomInAndOut() {
+  if (scale >= 1.2) {
+    // Eğer ölçek 1.2'den büyük veya eşitse küçültmeye başla
+    scale = 1.2;
+    direction = -0.02; // Küçültme yönde
+  } else if (scale <= 1) {
+    // Eğer ölçek 1'den küçük veya eşitse büyütmeye başla
+    scale = 1;
+    direction = 0.02; // Büyütme yönde
+  }
+
+  scale += direction; // Yöne göre ölçeği güncelle
+  resim.style.transform = `scale(${scale})`; // Resmi ölçeklendir
+
+  // İşlemi her 10 milisaniyede bir tekrarla
+  requestAnimationFrame(zoomInAndOut);
+}
+
+let direction = 0.02; // Başlangıç yönde (büyütme)
+
+// Her 1000 milisaniyede bir büyütme ve küçültme işlemini başlat
+setInterval(zoomInAndOut, 1000);
+
+
 
 
