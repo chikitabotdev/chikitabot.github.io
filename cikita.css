@@ -281,7 +281,7 @@ font-size: 170% !important;
 
     }
     .cikitatext1 {
-        flex: 0 0 100%;
+        flex: 0 0 100% !important;
         box-sizing: content-box;
     }
     section p.addserver{
