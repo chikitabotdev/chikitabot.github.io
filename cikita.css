@@ -298,8 +298,8 @@ font-size: 170% !important;
     }
 
     .sec1   {
-        clip-path: none;
-        webkit-clip-path: none;
+        clip-path: none !important;
+        webkit-clip-path: none !important;
     }
 
 }
