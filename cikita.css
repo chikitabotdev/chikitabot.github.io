@@ -48,6 +48,7 @@ color: #5c5c5c;
     flex-wrap: none;
     backdrop-filter: blur(11px);
     z-index: 100;
+    align-items: center;
 }
 
 .container {
