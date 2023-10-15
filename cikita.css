@@ -40,6 +40,14 @@ header a:hover {
 color: #5c5c5c;
 }
 
+.h2 {
+    margin-top: 10%;
+    font-size: 50px;
+    color: #484848;
+    margin: 0.67em 0;
+    max-inline-size: none;
+}
+
 .row {
     display: flex;
     margin-right: 20%;
