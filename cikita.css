@@ -244,6 +244,13 @@ font-size: 170% !important;
     background-color: #6d6f78;
 }
 
+.buttongreen {
+    background-color: #248046;
+}
+.buttongreen:hover {
+    background-color: #1a6334;
+}
+
 
 
 @keyframes zoomAnimation {
