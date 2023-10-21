@@ -301,6 +301,9 @@ font-size: 170% !important;
         flex: 0 0 100% !important;
         box-sizing: content-box;
     }
+    .cikitasettings {
+        flex: 0 0 100% !important;
+    }
     section p.addserver{
         justify-content: center;
     }
