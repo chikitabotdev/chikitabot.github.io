@@ -317,7 +317,7 @@ font-size: 170% !important;
 
     .sec1   {
         clip-path: none !important;
-        webkit-clip-path: none !important;
+        -webkit-clip-path: none !important;
     }
 
 }
