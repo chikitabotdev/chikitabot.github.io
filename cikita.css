@@ -84,7 +84,7 @@ h2 {
     flex: 0 0 50%;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding-bottom: 5%;
 }
