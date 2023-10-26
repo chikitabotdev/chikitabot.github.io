@@ -119,7 +119,6 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
     }
     if (currentURL.includes("https://chikitabot.net/archive/chikita/#admin/")) {
     // "example.com" sitesi için özel işlemleri burada gerçekleştirin
-    plush = "cikita";}
     for (var i = 0; i < orgchildren.length; i++) {
         container.appendChild(orgchildren[i]);
     }
