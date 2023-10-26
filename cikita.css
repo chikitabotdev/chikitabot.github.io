@@ -266,6 +266,9 @@ height: auto;
 
 .gallery .desc {
 text-align: center;
+font-family: 'Red Hat Display', sans-serif;
+color: #484848;
+font-size: 18px;
 }
 
 @keyframes zoomAnimation {

@@ -8,7 +8,7 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archivecikita')
     for (let i = 0; i < data.length; i++) {
       const row = data[i];
 
-            
+        console.log(row.link);
         // 1. Ana galeri div elementini oluşturun
         var galleryDiv = document.createElement("div");
         galleryDiv.classList.add("gallery");
@@ -16,17 +16,17 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archivecikita')
         // 2. 'a' elementini oluşturun ve href özelliği ekleyin
         var linkElement = document.createElement("a");
         linkElement.setAttribute("target", "_blank");
-        linkElement.setAttribute("href", row.url);
+        linkElement.setAttribute("href", row.link);
 
         // 3. 'img' elementini oluşturun ve src ve alt özelliklerini ekleyin
         var imgElement = document.createElement("img");
-        imgElement.setAttribute("src", row.url);
+        imgElement.setAttribute("src", row.link);
         imgElement.setAttribute("alt", row.id);
 
         // 4. Açıklama div elementini oluşturun ve içeriğini ekleyin
         var descDiv = document.createElement("div");
         descDiv.classList.add("desc");
-        descDiv.textContent = "${row.id}";
+        descDiv.textContent = row.id;
 
         // Elementleri birleştirin
         linkElement.appendChild(imgElement);
@@ -37,14 +37,12 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archivecikita')
         var anaElement = document.querySelector(".cikitagallery");
         anaElement.appendChild(galleryDiv); // Galeri div'i ana elemente ekleyin
         
-      // Örnek: Verileri HTML içine eklemek
-      const resultDiv = document.querySelector(".cikitagallery");
-      resultDiv.innerHTML += '<p>Row ' + i + ': ' + JSON.stringify(row) + '</p>';
     }
   })
   .catch(error => {
     console.error('Veriler alınırken hata oluştu:', error);
   });
+
 
 });
 
