@@ -106,6 +106,7 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
 
     // 2. Çocukları bir diziye dönüştürün
     var children = Array.from(container.children);
+    var orgchildren = Array.from(container.children);
 
     // 3. Diziyi karıştırın
     children.sort(function() {
@@ -116,6 +117,13 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
     for (var i = 0; i < children.length; i++) {
         container.appendChild(children[i]);
     }
+    if (currentURL.includes("https://chikitabot.net/archive/chikita/#admin/")) {
+    // "example.com" sitesi için özel işlemleri burada gerçekleştirin
+    plush = "cikita";}
+    for (var i = 0; i < orgchildren.length; i++) {
+        container.appendChild(orgchildren[i]);
+    }
+
   })
   .catch(error => {
     console.error('Veriler alınırken hata oluştu:', error);
