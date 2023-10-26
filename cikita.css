@@ -253,7 +253,20 @@ font-size: 170% !important;
     background-color: #1a6334;
 }
 
+div.gallery {
+margin: 5px;
+float: left;
+width: 500px;
+}
+  
+div.gallery img {
+width: 100%;
+height: auto;
+}
 
+.gallery .desc {
+text-align: center;
+}
 
 @keyframes zoomAnimation {
     0% {
