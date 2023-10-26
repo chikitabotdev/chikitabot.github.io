@@ -52,7 +52,20 @@ function refreshPage() {
 
 document.addEventListener('DOMContentLoaded', function() {
 // JSON verilerini almak için bir GET isteği yapın
-fetch('https://api.cikita.chikitabot.net:58731/api/archivecikita')
+var currentURL = window.location.href;
+var plush = "cikita";
+// Belirli bir site adına göre koşul yapma
+if (currentURL.includes("https://chikitabot.net/archive/chikita/")) {
+    // "example.com" sitesi için özel işlemleri burada gerçekleştirin
+    plush = "cikita";
+} else if (currentURL.includes("https://chikitabot.net/archive/fumo/")) {
+    // "another-site.com" sitesi için özel işlemleri burada gerçekleştirin
+    plush = "fumo";
+} else {
+    // Diğer durumlar için varsayılan işlemleri burada gerçekleştirin
+    console.log("Belirtilen sitelerden herhangi birinde değilsiniz.");
+}
+fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
   .then(response => response.json())
   .then(data => {
     // JSON verilerini işleme
