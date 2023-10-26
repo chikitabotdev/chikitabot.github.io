@@ -16,12 +16,12 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archivecikita')
         // 2. 'a' elementini oluşturun ve href özelliği ekleyin
         var linkElement = document.createElement("a");
         linkElement.setAttribute("target", "_blank");
-        linkElement.setAttribute("href", "${row.url}");
+        linkElement.setAttribute("href", row.url);
 
         // 3. 'img' elementini oluşturun ve src ve alt özelliklerini ekleyin
         var imgElement = document.createElement("img");
-        imgElement.setAttribute("src", "${row.url}");
-        imgElement.setAttribute("alt", "${row.id}");
+        imgElement.setAttribute("src", row.url);
+        imgElement.setAttribute("alt", row.id);
 
         // 4. Açıklama div elementini oluşturun ve içeriğini ekleyin
         var descDiv = document.createElement("div");
