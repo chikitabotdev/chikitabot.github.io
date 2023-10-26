@@ -101,25 +101,26 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
         anaElement.appendChild(galleryDiv); // Galeri div'i ana elemente ekleyin
         
     }
+    // 1. HTML elementini seçin
+    var container = document.querySelector(".cikitagallery");
+
+    // 2. Çocukları bir diziye dönüştürün
+    var children = Array.from(container.children);
+
+    // 3. Diziyi karıştırın
+    children.sort(function() {
+        return 0.5 - Math.random();
+    });
+
+    // 4. Karıştırılmış diziyi HTML elementine yeniden ekleyin
+    for (var i = 0; i < children.length; i++) {
+        container.appendChild(children[i]);
+    }
   })
   .catch(error => {
     console.error('Veriler alınırken hata oluştu:', error);
   });
-// 1. HTML elementini seçin
-var container = document.querySelector(".cikitagallery");
 
-// 2. Çocukları bir diziye dönüştürün
-var children = Array.from(container.children);
-
-// 3. Diziyi karıştırın
-children.sort(function() {
-    return 0.5 - Math.random();
-});
-
-// 4. Karıştırılmış diziyi HTML elementine yeniden ekleyin
-for (var i = 0; i < children.length; i++) {
-    container.appendChild(children[i]);
-};
 });
 
 
