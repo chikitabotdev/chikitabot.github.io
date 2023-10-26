@@ -64,8 +64,3 @@ root.addEventListener('mousemove', (e) => {
   elementmove2.style.transform = `translate(${-x / 20}px,${-y / 40}px)`;
 });
 
-
-
-
-
-
