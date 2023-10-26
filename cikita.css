@@ -257,6 +257,7 @@ div.gallery {
 margin: 5px;
 float: left;
 width: 500px;
+margin-bottom: 50px;
 }
   
 div.gallery img {
