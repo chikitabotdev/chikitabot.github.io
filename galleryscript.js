@@ -119,7 +119,7 @@ children.sort(function() {
 // 4. Karıştırılmış diziyi HTML elementine yeniden ekleyin
 for (var i = 0; i < children.length; i++) {
     container.appendChild(children[i]);
-}
+};
 });
 
 
