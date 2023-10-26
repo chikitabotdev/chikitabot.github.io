@@ -106,7 +106,6 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
 
     // 2. Çocukları bir diziye dönüştürün
     var children = Array.from(container.children);
-    var orgchildren = Array.from(container.children);
 
     // 3. Diziyi karıştırın
     children.sort(function() {
