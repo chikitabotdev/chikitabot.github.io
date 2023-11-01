@@ -119,17 +119,17 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
           // 2. 'a' elementini oluşturun ve href özelliği ekleyin
           var linkElement = document.createElement("a");
           linkElement.setAttribute("target", "_blank");
-          linkElement.setAttribute("href", data[i][random].link);
+          linkElement.setAttribute("href", data[random].link);
 
           // 3. 'img' elementini oluşturun ve src ve alt özelliklerini ekleyin
           var imgElement = document.createElement("img");
-          imgElement.setAttribute("src", data[i][random].link);
-          imgElement.setAttribute("alt", data[i][random].id);
+          imgElement.setAttribute("src", data[random].link);
+          imgElement.setAttribute("alt", data[random].id);
 
           // 4. Açıklama div elementini oluşturun ve içeriğini ekleyin
           var descDiv = document.createElement("div");
           descDiv.classList.add("desc");
-          descDiv.textContent = data[i][random].id;
+          descDiv.textContent = data[random].id;
 
           // Elementleri birleştirin
           linkElement.appendChild(imgElement);
