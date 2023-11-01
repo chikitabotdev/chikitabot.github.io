@@ -82,12 +82,6 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
        
     } else {
 
-    if (age !== null) {
-        console.log('Age parametresi bulundu: ' + age);
-    } else {
-        console.log('Age parametresi bulunamadı.');
-    }
-
     for (let i = 0; i < data.length; i++) {
       const row = data[i];
 
