@@ -111,35 +111,6 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
         var anaElement = document.querySelector(".cikitagallery");
         anaElement.appendChild(galleryDiv); // Galeri div'i ana elemente ekleyin
         }
-        else {
-          // 1. Ana galeri div elementini oluşturun
-          var galleryDiv = document.createElement("div");
-          galleryDiv.classList.add("gallery");
-
-          // 2. 'a' elementini oluşturun ve href özelliği ekleyin
-          var linkElement = document.createElement("a");
-          linkElement.setAttribute("target", "_blank");
-          linkElement.setAttribute("href", data[random].link);
-
-          // 3. 'img' elementini oluşturun ve src ve alt özelliklerini ekleyin
-          var imgElement = document.createElement("img");
-          imgElement.setAttribute("src", data[random].link);
-          imgElement.setAttribute("alt", data[random].id);
-
-          // 4. Açıklama div elementini oluşturun ve içeriğini ekleyin
-          var descDiv = document.createElement("div");
-          descDiv.classList.add("desc");
-          descDiv.textContent = data[random].id;
-
-          // Elementleri birleştirin
-          linkElement.appendChild(imgElement);
-          galleryDiv.appendChild(linkElement);
-          galleryDiv.appendChild(descDiv);
-
-          // Sonuç galeri div elementini belirtilen bir ana elemente ekleyin
-          var anaElement = document.querySelector(".cikitagallery");
-          anaElement.appendChild(galleryDiv); // Galeri div'i ana elemente ekleyin
-          }
       }
 
     } else {
