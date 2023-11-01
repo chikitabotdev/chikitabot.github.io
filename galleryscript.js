@@ -77,7 +77,6 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
 
     // İstenen parametreyi al
     const id = urlParams.get('id');
-    const random = data[Math.floor(Math.random() * data.length)];
     // Parametrelerin varlığını kontrol et
     if (id) {
       for (let i = 0; i < data.length; i++) {
