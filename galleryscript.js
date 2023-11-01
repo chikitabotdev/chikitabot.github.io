@@ -76,9 +76,11 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
     const urlParams = new URLSearchParams(queryString);
 
     // İstenen parametreyi al
-
+    const id = urlParams.get('id');
     // Parametrelerin varlığını kontrol et
-    if (urlParams.get('id')) {
+    if (id) {
+
+      
        
     } else {
 
