@@ -69,6 +69,26 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
   .then(response => response.json())
   .then(data => {
     // JSON verilerini işleme
+    // URL'deki query string parametreleri al
+    const queryString = window.location.search;
+
+    // query string'i ayrıştır
+    const urlParams = new URLSearchParams(queryString);
+
+    // İstenen parametreyi al
+    const id = urlParams.get('id');
+
+    // Parametrelerin varlığını kontrol et
+    if (id !== null) {
+       
+    } else {
+
+    if (age !== null) {
+        console.log('Age parametresi bulundu: ' + age);
+    } else {
+        console.log('Age parametresi bulunamadı.');
+    }
+
     for (let i = 0; i < data.length; i++) {
       const row = data[i];
 
@@ -117,7 +137,7 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
         container.appendChild(children[i]);
     }
 
-  })
+  }})
   .catch(error => {
     console.error('Veriler alınırken hata oluştu:', error);
   });
