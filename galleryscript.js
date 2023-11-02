@@ -115,10 +115,12 @@ fetch('https://api.cikita.chikitabot.net:58731/api/archive' + plush)
         var random = Math.floor(Math.random() * data.length);
         chikitafoto(data[random].link, data[random].id);
       }
-      for (let i = 0; i < data.length; i++) {
-        const row = data[i];
-        if (id == row.id) {
-            chikitafoto(row.link, row.id);
+      else {
+        for (let i = 0; i < data.length; i++) {
+          const row = data[i];
+          if (id == row.id) {
+              chikitafoto(row.link, row.id);
+          }
         }
       }
 
