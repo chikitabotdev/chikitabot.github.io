@@ -3,10 +3,8 @@ transition: background 1s ease;
 background-color: #f8f8f8;
 }
 
-body
-
-header {
-    background-color: #ffffff14;
+body header {
+    background-color: #ffffff45;
     transition: 1s;
     position: sticky;
     top: 0;
