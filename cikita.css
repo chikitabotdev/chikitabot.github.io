@@ -327,8 +327,8 @@ font-size: 18px;
         box-sizing: content-box;
     }
     .cikitatext1 section {
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: none;
+        margin-left: none;
     }
 
     .addserver {
