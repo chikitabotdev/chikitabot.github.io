@@ -321,6 +321,10 @@ font-size: 18px;
         box-sizing: content-box;
     }
 
+    .cikitatext1 p {
+        font-size: 20px;
+    }
+
     .cikitatext1 h1 {
         font-size: 30px;
     }
