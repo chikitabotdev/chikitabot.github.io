@@ -110,7 +110,8 @@ h2 {
 }
 section p.addserver{
     margin-top: 10%;
-    display: grid;
+    display: flex;
+    gap: 5%;
     place-items: center;
     justify-content: left;
     font-family: 'Google Sans', sans-serif, system-ui;
