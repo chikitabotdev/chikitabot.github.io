@@ -81,6 +81,29 @@ h2 {
 }
 .chikitasettings {
     flex: 0 0 50%;
+    padding-left: 72px;
+    padding-right: 100px!important;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    position: relative;
+    word-wrap: break-word;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: -webkit-match-parent;
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border-radius: 1rem;
+    background-color: #313338;
+    margin-left: 20%;
 }
 .cikitatext1 {
     flex: 0 0 50%;
