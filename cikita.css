@@ -332,12 +332,6 @@ font-size: 18px;
         margin-right: 0px;
         margin-left: 0px;
     }
-
-    .addserver {
-        display: grid;
-        gap: 10%;
-        margin-bottom: 5%;
-    }
     .cikitatext1 p {
         font-size: 20px;
     }
@@ -351,6 +345,9 @@ font-size: 18px;
     }
     section p.addserver{
         justify-content: center;
+        display: grid;
+        gap: 10%;
+        margin-bottom: 5%;
     }
     .server-count {
         font-size: 100% !important;
