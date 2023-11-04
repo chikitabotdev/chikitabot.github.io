@@ -100,6 +100,10 @@ h2 {
     font-size: 150%;
     color: #484848;
 }
+.addserver {
+    display: flex;
+    gap: 5%;
+}
 section p.addserver{
     margin-top: 10%;
     display: grid;
@@ -321,8 +325,8 @@ font-size: 18px;
         box-sizing: content-box;
     }
     #cikitabot-u-discord-sunucuna-ekle {
-        margin-right: none;
-        margin-left: none;
+        margin-right: none !important;
+        margin-left: none !important;
     }
 
     .addserver {
