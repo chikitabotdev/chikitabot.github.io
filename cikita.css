@@ -193,12 +193,10 @@ font-size: 170% !important;
 }
 
 .server-count-cont {
-    flex: 0 0 50%;
     justify-content: center;
 }
 
 .member-count-cont {
-    flex: 0 0 50%;
     justify-content: center;
 }
 
