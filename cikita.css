@@ -339,9 +339,13 @@ font-size: 18px;
     .cikitatext1 h1 {
         font-size: 30px;
     }
+    .cikitatext1 h2 {
+        font-size: 30px;
+    }
 
     .chikitasettings {
         flex: none !important;
+        transform: scale(0.4) !important;
     }
     section p.addserver{
         justify-content: center;
