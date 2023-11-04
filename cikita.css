@@ -382,7 +382,7 @@ font-size: 18px;
     .chikitasettings {
         flex: none !important;
         transform: scale(0.5) !important;
-        margin-left: none !important;
+        margin-left: 0px !important;
     }
     section p.addserver{
         justify-content: center;
