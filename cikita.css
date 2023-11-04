@@ -104,10 +104,7 @@ h2 {
     margin-right: 10%;
     margin-left: 10%;
 }
-.addserver {
-    display: flex;
-    gap: 5%;
-}
+
 section p.addserver{
     margin-top: 10%;
     display: flex;
