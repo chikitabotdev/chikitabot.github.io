@@ -100,6 +100,10 @@ h2 {
     font-size: 150%;
     color: #484848;
 }
+.cikitatext1 section {
+    margin-right: 10%;
+    margin-left: 10%;
+}
 .addserver {
     display: flex;
     gap: 5%;
