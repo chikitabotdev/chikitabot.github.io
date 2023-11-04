@@ -345,13 +345,16 @@ font-size: 18px;
 
     .chikitasettings {
         flex: none !important;
-        transform: scale(0.4) !important;
+        transform: scale(0.5) !important;
     }
     section p.addserver{
         justify-content: center;
         display: grid;
         gap: 10%;
         margin-bottom: 5%;
+    }
+    .cikitamusic {
+        transform: scale(0.8);
     }
     .server-count {
         font-size: 100% !important;
