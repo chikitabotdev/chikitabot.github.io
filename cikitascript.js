@@ -55,6 +55,11 @@ const elementmove = document.querySelector('.cikitaimg'),
       elementmove3 = document.querySelector('.svgcikita1'),
       root = document.documentElement;
 
+elementmove.style.transform = `translate(0px, -7.475px)`;
+elementmove1.style.transform = `translate(0px, -5.98px)`;
+elementmove2.style.transform = `translate(0px, -14.95px)`;
+elementmove3.style.transform = `translate(0px, -4.98333px)`;
+
 root.addEventListener('mousemove', (e) => {
   const x = e.clientX,
         y = e.clientY;
