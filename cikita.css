@@ -325,8 +325,8 @@ font-size: 18px;
         box-sizing: content-box;
     }
     #cikitabot-u-discord-sunucuna-ekle {
-        margin-right: none !important;
-        margin-left: none !important;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .addserver {
