@@ -362,8 +362,6 @@ font-size: 18px;
     }
     section p.addserver{
         justify-content: center;
-        display: grid;
-        gap: 15%;
         margin-bottom: 5%;
     }
     .cikitamusic {
