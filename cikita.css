@@ -363,7 +363,10 @@ font-size: 18px;
     .member-count {
         font-size: 100% !important;
     }
-
+    .buttoncikita {
+        font-size: 14px !important;
+        padding: 15px 10px 15px !important;
+    }
     .sec1   {
         clip-path: none !important;
         -webkit-clip-path: none !important;
