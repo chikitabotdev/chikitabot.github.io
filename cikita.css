@@ -306,7 +306,7 @@ font-size: 18px;
         margin-right: 3% !important;
     }
     .site-title {
-        font-size: 25px;
+        font-size: 25px !important;
     }
     header .container {
         justify-content: center;
