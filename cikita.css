@@ -318,6 +318,8 @@ font-size: 18px;
     .cikitaimg1 {
         flex: 0 0 100%;
         box-sizing: content-box;
+        padding-top: 10%;
+        padding-bottom: 10%;
 
     }
     .cikitatext1 {
