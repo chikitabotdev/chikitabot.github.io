@@ -320,6 +320,11 @@ font-size: 18px;
         flex: 0 0 100% !important;
         box-sizing: content-box;
     }
+
+    .cikitatext1 h1 {
+        font-size: 40px;
+    }
+
     .chikitasettings {
         flex: none !important;
     }
