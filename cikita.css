@@ -130,6 +130,13 @@ section .addserver span{
 font-size: 170% !important;
 }
 
+.text2desk {
+    display: flex;
+}
+.text2mobile {
+    display: none;
+}
+
 .server-count {
     margin-top: 0;
     -webkit-margin-end: 0;
@@ -376,6 +383,12 @@ font-size: 18px;
     .sec1   {
         clip-path: none !important;
         -webkit-clip-path: none !important;
+    }
+    .text2desk {
+        display: none;
+    }
+    .text2mobile {
+        display: flex;
     }
 
 }
