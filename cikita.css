@@ -192,14 +192,6 @@ font-size: 170% !important;
     gap: 5%;
 }
 
-.server-count-cont {
-    justify-content: center;
-}
-
-.member-count-cont {
-    justify-content: center;
-}
-
 .sec1 {
     clip-path: polygon(20% 0%, 100% 0, 100% 50%, 80% 100%, 0 100%, 0% 50%);
     -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 50%, 80% 100%, 0 100%, 0% 50%);
