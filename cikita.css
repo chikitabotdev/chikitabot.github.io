@@ -356,6 +356,7 @@ font-size: 18px;
     .cikitatext1 section {
         margin-right: 0px;
         margin-left: 0px;
+        text-align: center;
     }
     .cikitatext1 p {
         font-size: 20px;
