@@ -189,6 +189,7 @@ font-size: 170% !important;
     font-weight: bold;
     font-size: 150% !important;
     margin-top: 5%;
+    gap: 5%;
 }
 
 .server-count-cont {
