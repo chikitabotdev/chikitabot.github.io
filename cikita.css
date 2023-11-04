@@ -305,8 +305,14 @@ font-size: 18px;
         margin-left: 3% !important;
         margin-right: 3% !important;
     }
+    .site-title {
+        font-size: 25px;
+    }
     header .container {
         justify-content: center;
+    }
+    .cikilogo {
+        width: 35px;
     }
     .row {
         justify-content: center;
