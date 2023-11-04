@@ -117,6 +117,9 @@ h2 {
     color: #484848;
     max-inline-size: none;
 }
+.text1 {
+    margin-left: 5%;
+}
 .cikitatext1 p{
     font-size: 150%;
     color: #484848;
@@ -364,6 +367,9 @@ font-size: 18px;
     }
     .cikitatext1 h1 {
         font-size: 30px;
+    }
+    .text1 {
+        margin-left: 0px !important;
     }
     .cikitatext1 h2 {
         font-size: 30px;
