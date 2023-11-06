@@ -19,7 +19,7 @@ body header {
     z-index: 100;
     display: flex;
     box-shadow: none;
-    align-items: flex-end;
+    align-items: center;
 }
 header .site-title {
     font-family: 'Red Hat Display', sans-serif;
