@@ -58,10 +58,16 @@ var plush = "cikita";
 if (currentURL.includes("https://chikitabot.net/archive/chikita/")) {
     // "example.com" sitesi için özel işlemleri burada gerçekleştirin
     plush = "cikita";
+} else if (currentURL.includes("https://chikitabot.net/tr/archive/chikita/")) {
+  // "another-site.com" sitesi için özel işlemleri burada gerçekleştirin
+  plush = "cikita";
 } else if (currentURL.includes("https://chikitabot.net/archive/fumo/")) {
     // "another-site.com" sitesi için özel işlemleri burada gerçekleştirin
     plush = "fumo";
-} else {
+} else if (currentURL.includes("https://chikitabot.net/tr/archive/fumo/")) {
+  // "another-site.com" sitesi için özel işlemleri burada gerçekleştirin
+  plush = "fumo";
+}else {
     // Diğer durumlar için varsayılan işlemleri burada gerçekleştirin
     console.log("Belirtilen sitelerden herhangi birinde değilsiniz.");
 }
